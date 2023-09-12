@@ -14,6 +14,8 @@ import Footer from "./Footer";
 import { Route, Routes } from "react-router-dom";
 import { useState } from "react";
 
+import Checkout from "./Checkout";
+
 function App() {
 
   const [cartItems, setCartItems] = useState([]); // Initialize an empty cart
@@ -53,6 +55,7 @@ function App() {
         <Route path="/notify" element={<Notify />} />
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<Error404 />} />
+        <Route path="/ZgzazuT27NnO" element={<Checkout />} />
       </Routes>
 
       <Footer />

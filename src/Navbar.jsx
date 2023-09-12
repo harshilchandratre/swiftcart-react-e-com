@@ -3,6 +3,8 @@ import "./home.css";
 import { NavLink } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 
+
+
 const Navbar = () => {
   const { loginWithRedirect } = useAuth0();
   const { logout } = useAuth0();
